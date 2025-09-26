@@ -117,6 +117,7 @@ void playGame() {
         printf("Top card: ");
         printCard(topCard);
         printf("\n");
+        printf("Cards left - You: %d | Computer: %d\n", playerHandSize, computerHandSize);
         
         if (playerTurn) {
             printf("\nYour hand (%d cards):\n", playerHandSize);
