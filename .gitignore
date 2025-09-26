@@ -1,0 +1,8 @@
+# Ignore compiled files
+*.exe
+*.out
+uno_game
+
+# Ignore system files
+.DS_Store
+*.log
